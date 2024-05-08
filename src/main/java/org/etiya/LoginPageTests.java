@@ -42,6 +42,7 @@ public class LoginPageTests
         String title = webDriver.getTitle();
         assertEquals(expectedResult, title); // verilen iki değerin eşit olma durumunu testin sonucuna bağlar.
     }
+
     @Test
     public void loginSuccessfull()
     {
